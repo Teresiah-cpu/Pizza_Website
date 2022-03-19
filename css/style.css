@@ -3,13 +3,32 @@
     padding: 0;
     border-radius: border-box;
 }
-body{
-   background: url(../images/background3.jpeg);
+.section1{
+   /* background: url(../images/background3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  position: relative;
+  padding-top: 23%;
+  background-position: center;  */
+    
   
    
   
 
 } 
+h1{
+  text-align: center;
+}
+span{
+  color: rgb(192, 19, 19);
+}
+#button{
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 15px;
+  align-items: center;
+  margin-left: 550px;
+  color: red;
+  background-color: black;
+}
