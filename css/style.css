@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+body{
+  /* background: url(./images/background3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 0.8; */
+  background-color: aqua;
+
+} 
