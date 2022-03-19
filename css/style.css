@@ -29,6 +29,15 @@ span{
   border-radius: 15px 15px 15px 15px;
   align-items: center;
   margin-left: 550px;
-  color: red;
-  background-color: black;
+  color: rgb(192, 19, 19);
+  background-color: rgb(119, 114, 114);
+  border: none;
+}
+.menu{
+  text-align: center;
+  font-size: 3em;
+  font-style: italic;
+}
+.pizzas{
+  margin-left: 70px;
 }
