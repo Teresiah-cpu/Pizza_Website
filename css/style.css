@@ -18,12 +18,13 @@
 
 } 
 .sec1{
-  background-image: url(../images/bg.png);
+  background-image: url(../images/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  background-position: center; 
+  position: relative; 
   padding-bottom: 5%;
+  background-position: center;
+  
 }
 h1{
   text-align: center;
@@ -43,6 +44,26 @@ span{
   border: none;
   border-radius: 15px 15px 15px 0px;
 }
+#secondh1{
+  text-align: center;
+}
+#p1{
+  padding-top: 40px;
+  padding-right: 20px;
+  color: white;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+  width: 900px;
+  margin-left: 10%;
+   margin-right: 20%;
+  background-color: brown;
+
+}
+
 .menu{
   text-align: center;
   font-size: 3em;
