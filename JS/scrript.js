@@ -8,13 +8,13 @@ $(document).ready(function() {
   $(".button.no").hide();
   $(".order-details h4").hide();
 
-//   $('.button.order').click(function() {
-//     var sizeOfPizza = $(".pizzasize option:selected").val();
-//     var toppingsOfPizza = $(".toppings option:selected").val();
-//     var crustOfPizza = $(".crust option:selected").val();
-//     var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
-//     var order = 1;
-//     var grandTotal = 0;
+  $('.button.order').click(function() {
+    var sizeOfPizza = $(".pizzasize option:selected").val();
+    var toppingsOfPizza = $(".toppings option:selected").val();
+    var crustOfPizza = $(".crust option:selected").val();
+    var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
+    var order = 1;
+    var grandTotal = 0;
 
 //     $("table").show();
 //     $(".hidden-buttons").show();
