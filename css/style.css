@@ -56,10 +56,10 @@ span{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
-  width: 900px;
-  margin-left: 10%;
-   margin-right: 20%;
+  border: 1px solid gray;
+  width: 1000px;
+  margin-left: 7%;
+   margin-right: 15%;
   background-color: brown;
 
 }
@@ -68,6 +68,10 @@ span{
   text-align: center;
   font-size: 3em;
   font-style: italic;
+  padding-top: 40px;
+}
+.ordersection{
+  
 }
 .pizzas{
   margin-left: 70px;
@@ -81,6 +85,7 @@ span{
   color: rgb(192, 19, 19);
   background-color: rgb(7, 0, 0);
   border: none;
+  margin-right: 47%;
   
 }
 .button.add-pizza{
