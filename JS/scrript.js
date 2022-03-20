@@ -16,31 +16,31 @@ $(document).ready(function() {
     var order = 1;
     var grandTotal = 0;
 
-//     $("table").show();
-//     $(".hidden-buttons").show();
-//     $(".button.order").hide();
+    $("table").show();
+    $(".hidden-buttons").show();
+    $(".button.order").hide();
 
-//     $("#size").html($(".pizzasize option:selected").text() + " - " + sizeOfPizza);
-//     $("#toppings").html($(".toppings option:selected").text() + " - " + toppingsOfPizza);
-//     $("#crust").html($(".crust option:selected").text() + " - " + crustOfPizza);
-//     $("#total").html(total);
+    $("#size").html($(".pizzasize option:selected").text() + " - " + sizeOfPizza);
+    $("#toppings").html($(".toppings option:selected").text() + " - " + toppingsOfPizza);
+    $("#crust").html($(".crust option:selected").text() + " - " + crustOfPizza);
+    $("#total").html(total);
 
-//     function Pizza(size, toppings, crust, total, orderNo) {
-//       this.size = size;
-//       this.toppings = toppings;
-//       this.crust = crust;
-//       this.total = total;
-//       this.orderNo = orderNo;
-//     }
+    function Pizza(size, toppings, crust, total, orderNo) {
+      this.size = size;
+      this.toppings = toppings;
+      this.crust = crust;
+      this.total = total;
+      this.orderNo = orderNo;
+    }
 
 
-//     $('.button.add-pizza').click(function() {
-//       var sizeOfPizza = $(".pizzasize option:selected").val();
-//       var toppingsOfPizza = $(".toppings option:selected").val();
-//       var crustOfPizza = $(".crust option:selected").val();
-//       var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
-//       order = order + 1;
-//       grandTotal = grandTotal + total;
+    $('.button.add-pizza').click(function() {
+      var sizeOfPizza = $(".pizzasize option:selected").val();
+      var toppingsOfPizza = $(".toppings option:selected").val();
+      var crustOfPizza = $(".crust option:selected").val();
+      var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
+      order = order + 1;
+      grandTotal = grandTotal + total;
 
 
 //       var newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
