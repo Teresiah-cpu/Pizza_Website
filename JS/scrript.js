@@ -1,12 +1,12 @@
 
-// $(document).ready(function() {
+$(document).ready(function() {
 
-//   $("table").hide();
-//   $(".hidden-buttons").hide();
-//   $(".order-details").hide();
-//   $(".button.yes").hide();
-//   $(".button.no").hide();
-//   $(".order-details h4").hide();
+  $("table").hide();
+  $(".hidden-buttons").hide();
+  $(".order-details").hide();
+  $(".button.yes").hide();
+  $(".button.no").hide();
+  $(".order-details h4").hide();
 
 //   $('.button.order').click(function() {
 //     var sizeOfPizza = $(".pizzasize option:selected").val();
