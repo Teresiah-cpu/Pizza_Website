@@ -23,7 +23,7 @@ h1{
 span{
   color: rgb(192, 19, 19);
 }
-#button{
+#btn{
   width: 120px;
   height: 50px;
   border-radius: 15px 15px 15px 15px;
@@ -41,3 +41,67 @@ span{
 .pizzas{
   margin-left: 70px;
 }
+.button.order{
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  
+}
+.button.add-pizza{
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  
+}
+.button.submit{
+   width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  
+}
+.button.yes{
+    width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  
+}
+.button.no{
+    width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+  .button.check-out{
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  }
