@@ -50,26 +50,26 @@ $(document).ready(function() {
       $("#pizza-info").append(newRow);
     });
 
-//     $(".button.check-out").click(function() {
-//       $(".button.add-pizza").hide();
-//       $(".button.check-out").hide();
-//       $(".order-details").show();
-//       $(".button.yes").show();
-//       $(".button.no").show();
-//       $(".order-details .location").hide();
-//       grandTotal = grandTotal + total;
+    $(".button.check-out").click(function() {
+      $(".button.add-pizza").hide();
+      $(".button.check-out").hide();
+      $(".order-details").show();
+      $(".button.yes").show();
+      $(".button.no").show();
+      $(".order-details .location").hide();
+      grandTotal = grandTotal + total;
 
-//       $(".order-details h3 span").html(grandTotal);
-//     });
+      $(".order-details h3 span").html(grandTotal);
+    });
 
-//     $(".button.yes").click(function() {
-//       $(".order-details h5").hide();
-//       $(".button.yes").hide();
-//       $(".button.no").hide();
-//       $(".order-details .location").show();
-//       $(".order-details h3 span").alert(grandTotal + 200);
+    $(".button.yes").click(function() {
+      $(".order-details h5").hide();
+      $(".button.yes").hide();
+      $(".button.no").hide();
+      $(".order-details .location").show();
+      $(".order-details h3 span").alert(grandTotal + 200);
       
-//     });
+    });
 
 //     $(".btn.no").click(function() {
 //       $(".order-details h5").hide();
