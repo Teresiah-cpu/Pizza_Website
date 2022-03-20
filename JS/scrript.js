@@ -43,12 +43,12 @@ $(document).ready(function() {
       grandTotal = grandTotal + total;
 
 
-//       var newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
+      var newPizza = new Pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
 
-//       var newRow = '<tr><th scope="row">' + newPizza.orderNo + '</th><td id="size">' + $(".pizzasize option:selected").text() + " - " + newPizza.size + '</td><td id="toppings">' + $(".toppings option:selected").text() + " - " + newPizza.toppings + '</td><td id="crust">' + $(".crust option:selected").text() + " - " + newPizza.crust + '</td><td id="total">' + newPizza.total + '</td></tr>'
+      var newRow = '<tr><th scope="row">' + newPizza.orderNo + '</th><td id="size">' + $(".pizzasize option:selected").text() + " - " + newPizza.size + '</td><td id="toppings">' + $(".toppings option:selected").text() + " - " + newPizza.toppings + '</td><td id="crust">' + $(".crust option:selected").text() + " - " + newPizza.crust + '</td><td id="total">' + newPizza.total + '</td></tr>'
 
-//       $("#pizza-info").append(newRow);
-//     });
+      $("#pizza-info").append(newRow);
+    });
 
 //     $(".button.check-out").click(function() {
 //       $(".button.add-pizza").hide();
