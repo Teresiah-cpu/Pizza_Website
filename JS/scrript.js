@@ -71,22 +71,22 @@ $(document).ready(function() {
       
     });
 
-//     $(".btn.no").click(function() {
-//       $(".order-details h5").hide();
-//       $(".button.yes").hide();
-//       $(".button.no").hide();
-//       $(".order-details .location").show();
-//     });
+    $(".btn.no").click(function() {
+      $(".order-details h5").hide();
+      $(".button.yes").hide();
+      $(".button.no").hide();
+      $(".order-details .location").show();
+    });
 
-//     $(".button.submit").click(function() {
-//       var location = $(".order-details .location input").val();
-//       $(".order-details h4").show();
-//       $(".order-details .location").hide();
-//       $(".order-details h4 span").html(location);
-//     });
+    $(".button.submit").click(function() {
+      var location = $(".order-details .location input").val();
+      $(".order-details h4").show();
+      $(".order-details .location").hide();
+      $(".order-details h4 span").html(location);
+    });
 
-//   });
+  });
 
-// });
+});
 
 
