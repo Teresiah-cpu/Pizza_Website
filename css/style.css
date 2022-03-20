@@ -73,6 +73,7 @@ span{
 .ordersection{
   
 }
+
 .pizzas{
   margin-left: 70px;
 }
@@ -140,4 +141,24 @@ span{
   color: rgb(192, 19, 19);
   background-color: rgb(7, 0, 0);
   border: none;
+  }
+  .contact{
+      background-color: rgb(224, 217, 217);
+      padding-top: 40px;
+      
+
+  }
+  .contact h1{
+  
+    text-align: center;
+    
+  }
+  .icons{
+    display: flex;
+ margin-left: 40%;
+    text-align: center;
+  }
+  .copyright{
+    text-align: center;
+    background-color: rgb(224, 217, 217);
   }
