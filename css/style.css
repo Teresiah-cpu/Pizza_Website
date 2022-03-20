@@ -3,6 +3,11 @@
     padding: 0;
     border-radius: border-box;
 }
+ body{
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+} 
 .section1{
    /* background: url(../images/background3.jpeg);
   background-repeat: no-repeat;
@@ -17,18 +22,32 @@
   
 
 } 
+#teshy{
+  color: white;
+}
 .sec1{
-  background-image: url(../images/bg2.png);
+  background-image: url(../images/back3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; 
   padding-bottom: 5%;
   background-position: center;
+  opacity: 0.9;
+  height: 600px;
   
 }
 h1{
   text-align: center;
   font-family: 'Sofia', cursive;
+  
+ 
+}
+#h1a{
+   text-align: center;
+  font-family: 'Sofia', cursive;
+  padding-top: 15%;
+  font-size: 3em;
+  color: white;
 }
 span{
   color: rgb(192, 19, 19);
@@ -57,10 +76,11 @@ span{
   justify-content: space-between;
   align-items: center;
   border: 1px solid gray;
-  width: 1000px;
-  margin-left: 7%;
-   margin-right: 15%;
-  background-color: brown;
+  width: 1100px;
+  height: 300px;
+  margin-left: 5%;
+  margin-right: 9%;
+  background-color: rgb(63, 26, 26);
 
 }
 
@@ -71,7 +91,9 @@ span{
   padding-top: 40px;
 }
 .ordersection{
-  
+  background: rgb(199, 193, 193);
+  height: 500px;
+  color: black
 }
 
 .pizzas{
