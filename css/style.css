@@ -1,58 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    border-radius: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
 }
- body{
+/* body {
   background: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: cover;
-} 
-.section1{
-   /* background: url(../images/background3.jpeg);
+} */
+.section1 {
+  background: url(../images/background3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   position: relative;
   padding-top: 23%;
-  background-position: center;  */
-    
-  
-   
-  
-
-} 
-#teshy{
+  background-position: center; 
+}
+#teshy {
   color: white;
 }
-.sec1{
+.sec1 {
   background-image: url(../images/back3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
   padding-bottom: 5%;
   background-position: center;
   opacity: 0.9;
   height: 600px;
-  
 }
-h1{
+h1 {
   text-align: center;
-  font-family: 'Sofia', cursive;
-  
- 
+  font-family: "Sofia", cursive;
 }
-#h1a{
-   text-align: center;
-  font-family: 'Sofia', cursive;
+#h1a {
+  text-align: center;
+  font-family: "Sofia", cursive;
   padding-top: 15%;
   font-size: 3em;
   color: white;
 }
-span{
+span {
   color: rgb(192, 19, 19);
 }
-#btn{
+#btn {
   width: 120px;
   height: 50px;
   border-radius: 15px 15px 15px 15px;
@@ -63,15 +55,15 @@ span{
   border: none;
   border-radius: 15px 15px 15px 0px;
 }
-#secondh1{
+#secondh1 {
   text-align: center;
 }
-#p1{
+#p1 {
   padding-top: 40px;
   padding-right: 20px;
   color: white;
 }
-.about{
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,25 +73,24 @@ span{
   margin-left: 5%;
   margin-right: 9%;
   background-color: rgb(63, 26, 26);
-
 }
 
-.menu{
+.menu {
   text-align: center;
   font-size: 3em;
   font-style: italic;
   padding-top: 40px;
 }
-.ordersection{
+.ordersection {
   background: rgb(199, 193, 193);
   height: 500px;
-  color: black
+  color: black;
 }
 
-.pizzas{
+.pizzas {
   margin-left: 70px;
 }
-.button.order{
+.button.order {
   width: 120px;
   height: 50px;
   border-radius: 15px 15px 15px 0px;
@@ -109,9 +100,8 @@ span{
   background-color: rgb(7, 0, 0);
   border: none;
   margin-right: 47%;
-  
 }
-.button.add-pizza{
+.button.add-pizza {
   width: 120px;
   height: 50px;
   border-radius: 15px 15px 15px 0px;
@@ -120,41 +110,8 @@ span{
   color: rgb(192, 19, 19);
   background-color: rgb(7, 0, 0);
   border: none;
-  
 }
-.button.submit{
-   width: 120px;
-  height: 50px;
-  border-radius: 15px 15px 15px 0px;
-  align-items: center;
-  margin-left: 550px;
-  color: rgb(192, 19, 19);
-  background-color: rgb(7, 0, 0);
-  border: none;
-  
-}
-.button.yes{
-    width: 120px;
-  height: 50px;
-  border-radius: 15px 15px 15px 0px;
-  align-items: center;
-  margin-left: 550px;
-  color: rgb(192, 19, 19);
-  background-color: rgb(7, 0, 0);
-  border: none;
-  
-}
-.button.no{
-    width: 120px;
-  height: 50px;
-  border-radius: 15px 15px 15px 0px;
-  align-items: center;
-  margin-left: 550px;
-  color: rgb(192, 19, 19);
-  background-color: rgb(7, 0, 0);
-  border: none;
-}
-  .button.check-out{
+.button.submit {
   width: 120px;
   height: 50px;
   border-radius: 15px 15px 15px 0px;
@@ -163,24 +120,252 @@ span{
   color: rgb(192, 19, 19);
   background-color: rgb(7, 0, 0);
   border: none;
-  }
-  .contact{
-      background-color: rgb(224, 217, 217);
-      padding-top: 40px;
-      
+}
+.button.yes {
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.button.no {
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.button.check-out {
+  width: 120px;
+  height: 50px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.contact {
+  background-color: rgb(224, 217, 217);
+  padding-top: 40px;
+}
+.contact h1 {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  margin-left: 40%;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+  background-color: rgb(224, 217, 217);
+}
 
-  }
-  .contact h1{
-  
-    text-align: center;
-    
-  }
-  .icons{
-    display: flex;
- margin-left: 40%;
-    text-align: center;
-  }
-  .copyright{
-    text-align: center;
-    background-color: rgb(224, 217, 217);
-  }
+
+
+/* 
+
+
+ @media only screen and (min-width : 480px) {
+   * {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+#teshy {
+  color: white;
+}
+.sec1 {
+  background-image: url(../images/back3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 5%;
+  background-position: center;
+  opacity: 0.9;
+  height: 600px;
+}
+h1 {
+  text-align: center;
+  font-family: "Sofia", cursive;
+}
+#h1a {
+  text-align: center;
+  font-family: "Sofia", cursive;
+  padding-top: 15%;
+  font-size: 3em;
+  color: white;
+}
+span {
+  color: rgb(192, 19, 19);
+}
+#btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 15px 15px 15px 15px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  border-radius: 15px 15px 15px 0px;
+}
+#secondh1 {
+  text-align: center;
+}
+#p1 {
+  padding-top: 40px;
+  padding-right: 10px;
+  color: white;
+}
+.about {
+  display: block;
+  align-items: center;
+  border: 1px solid gray;
+  width: 700px;
+  height: 150px;
+  margin-left: 5%;
+  margin-right: 9%;
+  background-color: rgb(63, 26, 26);
+}
+.menu {
+  text-align: center;
+  font-size: 3em;
+  font-style: italic;
+  padding-top: 40px;
+}
+.ordersection {
+  background: rgb(199, 193, 193);
+  height: 250px;
+  color: black;
+}
+
+.pizzas {
+  margin-left: 70px;
+}
+.button.order {
+  width: 80px;
+  height: 40px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 100px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+  margin-right: 27%;
+}
+.button.add-pizza {
+  width: 90px;
+  height: 40px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.button.submit {
+  width: 90px;
+  height: 40px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.button.yes {
+  width: 90px;
+  height: 40px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.button.no {
+  width: 90px;
+  height: 40px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.button.check-out {
+  width: 90px;
+  height: 40px;
+  border-radius: 15px 15px 15px 0px;
+  align-items: center;
+  margin-left: 550px;
+  color: rgb(192, 19, 19);
+  background-color: rgb(7, 0, 0);
+  border: none;
+}
+.contact {
+  background-color: rgb(224, 217, 217);
+  padding-top: 40px;
+}
+.contact h1 {
+  text-align: center;
+}
+.icons {
+  display: block;
+  margin-left: 40%;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+  background-color: rgb(224, 217, 217);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    } */

@@ -67,7 +67,7 @@ $(document).ready(function() {
       $(".button.yes").hide();
       $(".button.no").hide();
       $(".order-details .location").show();
-      $(".order-details h3 span").alert(grandTotal + 200);
+      $(".order-details h3 span").html(grandTotal + 200);
       
     });
 
