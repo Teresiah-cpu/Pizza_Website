@@ -19,6 +19,8 @@ $(document).ready(function() {
     $("table").show();
     $(".hidden-buttons").show();
     $(".button.order").hide();
+    
+
 
     $("#size").html($(".pizzasize option:selected").text() + " - " + sizeOfPizza);
     $("#toppings").html($(".toppings option:selected").text() + " - " + toppingsOfPizza);
@@ -50,6 +52,8 @@ $(document).ready(function() {
       $("#pizza-info").append(newRow);
     });
 
+
+    
     $(".button.check-out").click(function() {
       $(".button.add-pizza").hide();
       $(".button.check-out").hide();
@@ -90,3 +94,6 @@ $(document).ready(function() {
 });
 
 
+function myFunction() {
+  alert("We Have received your order, thankyou!");
+}
